@@ -76,7 +76,7 @@ system_unzip_Whaticketsaas() {
   sleep 2
 
   sudo su - deploy <<EOF
-  unzip /home/deploy/${instancia_add}/Whaticket.zip -d /home/deploy/${instancia_add}
+  unzip /home/deploy/${instancia_add}/Whaticketsaas.zip -d /home/deploy/${instancia_add}
 EOF
 
   sudo chmod -R 777 /home/deploy/${instancia_add}/backend/public/
