@@ -38,7 +38,7 @@ system_mv_folder() {
   sleep 2
 
   sudo su - root <<EOF
-  cp "${PROJECT_ROOT}"/Whaticket.zip /home/deploy/${instancia_add}/
+  cp "${PROJECT_ROOT}"/Whaticketsaas.zip /home/deploy/${instancia_add}/
 EOF
 
   sleep 2
